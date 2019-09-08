@@ -1,0 +1,336 @@
+body
+{
+  margin: 0;
+  font-family: 'Noto Sans SC', sans-serif;
+}
+header
+{
+  text-align: center;
+  background-color: rgb(35,47,62);
+}
+#amazon
+{
+  width: 120px;
+}
+#container
+{
+  display: flex;
+  flex-direction: row;
+  padding-left: 300px;
+  padding-top: 100px;
+  margin: auto;
+}
+#watch
+{
+  position: relative;
+  text-align: center;
+}
+#currentTime
+{
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+
+#heartRate
+{
+  position: absolute;
+  text-align: center;
+  display: none;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#hbNumber
+{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+}
+#heartRate i
+{
+  color: red;
+  font-size: 40px;
+  animation: heartBeat .40s infinite alternate;
+}
+@keyframes heartBeat
+{
+  to { transform: scale(1.4); }
+}
+
+#watchImage
+{
+  width: 420px;
+}
+#aboutWatch
+{
+  width: 50%;
+}
+p
+{ 
+  font-size: 14px; 
+  line-height: 25px;
+}
+
+button
+{
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+#black, #peach, #blue, #purple
+{
+  height: 35px;
+  width: 50px;
+  display: inline-block;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+#black
+{
+  background-color: black;
+}
+#peach
+{
+  background-color: rgb(230, 73, 42);
+}
+#blue
+{
+  background-color:rgb(73, 72, 117);
+}
+#purple
+{
+  background-color:rgb(139, 80, 96);
+}
+#showTime
+{
+  padding: 9px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 15px;
+}   
+#showHeartBeat
+{
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+#buyNow
+{
+  padding: 18px 38px;
+  border-radius: 5px;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: rgb(209, 145, 26);
+  color: black;
+}
+
+
+@media(max-width: 1196px)
+{
+  h1
+  {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  p
+  {
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 1500px)
+{
+  #container
+  {
+    padding-left: 200px;
+  }
+}
+
+@media(max-width: 1200px)
+{
+  #currentTime
+  {
+    top: 46%;
+  }
+}
+
+
+@media(max-width: 1000px)
+{
+  #container
+  {
+    padding-left: 100px;
+    padding-right: 50px;
+  }
+  #currentTime
+  {
+    top: 45%;
+  }
+}
+@media(max-width: 880px)
+{
+  #container
+  {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media(max-width: 860px)
+{
+  #container
+  {
+    text-align: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  #currentTime
+  {
+    top: 48%;
+  }
+  #heartRate 
+  {
+    top: 50%;
+    left: 50%;
+  }
+  #hbNumber
+  {
+    font-size: 26x;
+  }
+  #heartRate i
+  {
+    color: red;
+    font-size: 38px;
+  }
+  #aboutWatch
+  {
+    margin: auto;
+    width: 70%;
+  }
+ 
+  #selector, #feature
+  {
+    text-align: center;
+  }
+  
+  #table 
+  {
+    display:table;    
+  }
+  #para 
+  {
+    display:table-footer-group;
+  }
+  #selector 
+  {
+    display:table-header-group;
+  }
+  #feature 
+  {
+    display:table-row-group;
+  }
+}
+@media(max-width: 644px)
+{
+  #heartRate 
+  {
+    top: 50%;
+    left: 50%;
+  }
+  #currentTime
+  {
+    top: 48%;
+  }
+}
+@media(max-width: 676px)
+{
+  #aboutWatch
+  {
+    width: 90%;
+  }
+}
+@media(max-width: 524px)
+{
+  #watchImage
+  {
+    width: 350px;
+  }
+  #currentTime
+  {
+    font-size: 22px;
+  }
+  #heartRate 
+  {
+    top: 50%;
+    left: 50%;
+  }  
+}
+@media(max-width: 456px)
+{
+  #container
+  {
+    padding-top: 10px;
+  }
+  #watchImage
+  {
+    width: 240px;
+  }
+  #currentTime
+  {
+    font-size: 15px;
+  }
+  #black, #peach, #blue, #purple
+  {
+    height: 25px;
+    width: 28px;
+    margin-right: 10px;
+  }
+  #buyNow
+  {
+    padding: 12px 28px;
+  }
+  #heartRate i
+  {
+    font-size: 26px;
+  }
+  #heartRate 
+  {
+    top: 50%;
+    left: 50%;
+  }
+  #hbNumber
+  {
+    font-size: 14px;
+  }
+  h1, h2
+  {
+    font-size: 17px;
+  }
+  
+  p > i
+  {
+    font-weight: 600;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
