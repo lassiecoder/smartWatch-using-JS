@@ -10,6 +10,6 @@
 
 
 ## Heart rate feature
-- on every refresh the heart beat rate is changing
+- On every refresh the heart beat rate is changing
 
 ![ss2](https://user-images.githubusercontent.com/17312616/64495675-8219f500-d2ba-11e9-8d88-72735f425c42.png)
