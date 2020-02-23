@@ -1,9 +1,9 @@
 // STORING ALL THE REQUIRED DATA FROM THE HTML ID's
 
-let blackTheme = "https://lassie-coder.000webhostapp.com/my_image/watch2.jpg"
-let peachTheme = "https://lassie-coder.000webhostapp.com/my_image/watch3.jpg"
-let blueTheme = "https://lassie-coder.000webhostapp.com/my_image/watch1.jpg"
-let purpleTheme = "https://lassie-coder.000webhostapp.com/my_image/watch4.jpg"
+let blackTheme = "https://i.imgur.com/iOeUBV7.png"
+let peachTheme = "https://i.imgur.com/PTgQlim.png"
+let blueTheme = "https://i.imgur.com/Mplj1YR.png"
+let purpleTheme = "https://i.imgur.com/xSIK4M8.png"
 
 let watch = document.getElementById('watchImage')
 
